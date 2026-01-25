@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# Except the docs folder
+!docs/
+!docs/**
+
+# Keep .gitignore itself
+!.gitignore
