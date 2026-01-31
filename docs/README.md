@@ -67,7 +67,7 @@ Use the GitHub Pages URLs:
 ## Customization
 
 Before publishing, update:
-- Contact information (currently references app support feature - update if you have a website or support email)
+- Contact information (currently set to getemberapp@gmail.com)
 - Jurisdiction in Terms of Service (Section 15)
 - Arbitration organization (Section 16)
 - Company name if different from "Ember"
