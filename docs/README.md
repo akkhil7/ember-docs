@@ -6,6 +6,7 @@ This directory contains the Privacy Policy and Terms of Service for the Ember ap
 
 - `privacy-policy.html` - Privacy Policy page
 - `terms-of-service.html` - Terms of Service page
+- `support.html` - Support page
 
 ## Hosting on GitHub Pages
 
@@ -29,6 +30,7 @@ This directory contains the Privacy Policy and Terms of Service for the Ember ap
 3. **Your URLs will be**:
    - Privacy Policy: `https://yourusername.github.io/ember-legal/privacy-policy.html`
    - Terms of Service: `https://yourusername.github.io/ember-legal/terms-of-service.html`
+   - Support: `https://yourusername.github.io/ember-legal/support.html`
 
 ### Option 2: Custom Domain
 
@@ -60,6 +62,7 @@ If you have a custom domain (e.g., `ember.app`):
 Use the GitHub Pages URLs:
 - **Privacy Policy URL**: `https://yourusername.github.io/ember-legal/privacy-policy.html`
 - **Terms of Service URL**: `https://yourusername.github.io/ember-legal/terms-of-service.html`
+- **Support URL**: `https://yourusername.github.io/ember-legal/support.html`
 
 ## Customization
 
