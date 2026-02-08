@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copyright - Ember</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1 {
+            color: #FFB84D;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #2C1A0A;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        h3 {
+            color: #6B4A2A;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            color: #9B7A5A;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            background: #FFF5E6;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+        a {
+            color: #FF8C5A;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Copyright Notice</h1>
+        <p class="last-updated">Last Updated: <span id="current-date"></span></p>
+
+        <h2>1. Copyright Ownership</h2>
+
+        <p>Copyright &copy; <span id="current-year"></span> Ember. All rights reserved.</p>
+
+        <p>The Ember application, including but not limited to its design, code, graphics, logos, icons, images, text, and all other content (collectively, the "Materials"), is the exclusive property of Ember and is protected by United States and international copyright laws, trademark laws, and other intellectual property rights.</p>
+
+        <h2>2. License to Use</h2>
+
+        <p>Subject to your compliance with these terms, Ember grants you a limited, non-exclusive, non-transferable, revocable license to:</p>
+        <ul>
+            <li>Download and install the Ember application on your personal device(s)</li>
+            <li>Use the application for its intended purpose of creating and preserving memorial profiles</li>
+            <li>Access and view content within the application</li>
+        </ul>
+
+        <h2>3. Restrictions</h2>
+
+        <p>You may not, without prior written permission from Ember:</p>
+        <ul>
+            <li>Copy, reproduce, distribute, or create derivative works of the Materials</li>
+            <li>Modify, reverse-engineer, decompile, or disassemble any part of the application</li>
+            <li>Remove, alter, or obscure any copyright, trademark, or other proprietary notices</li>
+            <li>Use the Materials for any commercial purpose without authorization</li>
+            <li>Sublicense, sell, rent, lease, or transfer your rights to the application</li>
+            <li>Use any automated means to access or interact with the application</li>
+        </ul>
+
+        <h2>4. User-Generated Content</h2>
+
+        <p>You retain ownership of the content you create and upload to Ember, including photos, videos, text, and other personal materials. By uploading content to Ember, you grant us a limited license to store, process, and display your content solely for the purpose of providing our services to you.</p>
+
+        <p>We do not claim ownership of your personal memories, photos, or other content you submit to the application.</p>
+
+        <h2>5. Trademarks</h2>
+
+        <p>"Ember," the Ember logo, and all related names, logos, product and service names, designs, and slogans are trademarks of Ember. You may not use such marks without the prior written permission of Ember.</p>
+
+        <h2>6. Third-Party Content</h2>
+
+        <p>The application may contain links to or integrate with third-party services. Any third-party content, trademarks, or materials are the property of their respective owners and are subject to their own copyright and intellectual property terms.</p>
+
+        <h2>7. DMCA and Copyright Infringement</h2>
+
+        <p>We respect the intellectual property rights of others. If you believe that any content on Ember infringes your copyright, please contact us with the following information:</p>
+        <ul>
+            <li>A description of the copyrighted work you claim has been infringed</li>
+            <li>A description of where the infringing material is located within the application</li>
+            <li>Your contact information (name, address, email, phone number)</li>
+            <li>A statement that you have a good faith belief that the use is not authorized</li>
+            <li>A statement, under penalty of perjury, that the information is accurate and you are the copyright owner or authorized to act on behalf of the owner</li>
+            <li>Your physical or electronic signature</li>
+        </ul>
+
+        <h2>8. Termination</h2>
+
+        <p>This license is effective until terminated. Your rights under this license will terminate automatically if you fail to comply with any of its terms. Upon termination, you must cease all use of the application and destroy any copies in your possession.</p>
+
+        <h2>9. Contact Us</h2>
+
+        <div class="contact-info">
+            <p>For copyright inquiries or to report copyright infringement, please contact us at <a href="mailto:getemberapp@gmail.com">getemberapp@gmail.com</a>.</p>
+        </div>
+
+        <p style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #E8DFD3;">
+            <em>Copyright &copy; <span id="footer-year"></span> Ember. All rights reserved. This copyright notice is effective as of the date listed above.</em>
+        </p>
+    </div>
+
+    <script>
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

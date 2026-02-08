@@ -1,6 +1,6 @@
 # Ember Legal Documents
 
-This repository contains the Privacy Policy and Terms of Service for the Ember app.
+This repository contains the legal documents for the Ember app.
 
 ## Repository Structure
 
@@ -9,6 +9,7 @@ ember-docs/
 └── docs/
     ├── privacy-policy.html
     ├── terms-of-service.html
+    ├── copyright.html
     ├── support.html
     └── README.md
 ```
@@ -22,6 +23,7 @@ This repository is configured to host the legal documents on GitHub Pages.
 Once deployed, your documents will be available at:
 - Privacy Policy: `https://yourusername.github.io/ember-docs/docs/privacy-policy.html`
 - Terms of Service: `https://yourusername.github.io/ember-docs/docs/terms-of-service.html`
+- Copyright: `https://yourusername.github.io/ember-docs/docs/copyright.html`
 - Support: `https://yourusername.github.io/ember-docs/docs/support.html`
 
 ### Deployment
